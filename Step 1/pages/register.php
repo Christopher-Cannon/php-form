@@ -2,7 +2,7 @@
 
 <html lang="en">
 	<head>
-		<title>Registration form</title>
+		<title>Registration</title>
 
 		<meta charset="UTF-8">
 

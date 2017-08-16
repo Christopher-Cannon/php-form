@@ -2,7 +2,7 @@
 
 <html lang="en">
 	<head>
-		<title>Registration</title>
+		<title>Login success</title>
 
 		<meta charset="UTF-8">
 
@@ -11,9 +11,11 @@
 
 	<body>
 		<div class="main-wrapper">
-			<h1>A website</h1>
+      <h1>Login successful!</h1>
 
-			<!-- Registration form goes here -->
+      <p>Username: </p>
+
+      <p>Email: </p>
 		</div>
 	</body>
 </html>

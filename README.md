@@ -8,4 +8,4 @@ Base project template
 Create registration and login forms
 
 ## Step 2
-Add form actions and validate script to registration form
+Add form actions and first part of validation script to registration form

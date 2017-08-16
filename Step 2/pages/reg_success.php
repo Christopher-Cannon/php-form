@@ -2,7 +2,7 @@
 
 <html lang="en">
 	<head>
-		<title>Registration</title>
+		<title>Registration success</title>
 
 		<meta charset="UTF-8">
 
@@ -11,9 +11,9 @@
 
 	<body>
 		<div class="main-wrapper">
-			<h1>A website</h1>
+      <h1>Registration successful!</h1>
 
-			<!-- Registration form goes here -->
+      <a href="../index.php">Return to login</a>
 		</div>
 	</body>
 </html>

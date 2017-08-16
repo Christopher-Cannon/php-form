@@ -12,10 +12,6 @@
 	<body>
 		<div class="main-wrapper">
       <h1>Login successful!</h1>
-
-      <p>Username: </p>
-
-      <p>Email: </p>
 		</div>
 	</body>
 </html>

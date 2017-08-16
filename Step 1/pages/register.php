@@ -18,6 +18,7 @@
 
 				<form name="reg-form">
 					<label>Username</label>
+					<span class="small-text">Only alphanumeric chars and underscores allowed</span>
 					<input type="text" name="username" />
 
 					<label>Email address</label>

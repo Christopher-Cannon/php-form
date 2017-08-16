@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 				<form name="reg-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 					<label>Username</label>
+          <span class="small-text">Only alphanumeric chars and underscores allowed</span>
 					<input type="text" name="username" />
 
 					<label>Email address</label>

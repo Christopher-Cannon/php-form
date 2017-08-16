@@ -34,3 +34,12 @@ html {
   padding:0.5em;
   width:100%;
 }
+
+.form-error {
+  color:red;
+}
+
+.small-text {
+  color:#888;
+  font-size:0.8em;
+}

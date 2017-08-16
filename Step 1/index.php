@@ -2,7 +2,7 @@
 
 <html lang="en">
 	<head>
-		<title>Registration and login</title>
+		<title>Login</title>
 
 		<meta charset="UTF-8">
 

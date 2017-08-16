@@ -1,6 +1,6 @@
 <?php
 $username = $email = $password_one = $password_two = "";
-$form_error = "";
+$form_error = $name_error = $email_error = $pass_error = "";
 
 // Remove unnecessary chars, slashes and sanitise special characters
 function test_input($data) {
@@ -12,16 +12,10 @@ function test_input($data) {
 
 // If form has been submitted, we can validate the input
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	// All form fields are required
-	if(empty($_POST["username"]) && empty($_POST["email"]) &&
-	empty($_POST["password_one"]) && empty($_POST["password_two"])) {
-		$form_error = "All form inputs are required";
-	} else {
-		$username = test_input($_POST["username"]);
-	  $email = test_input($_POST["email"]);
-	  $password_one = test_input($_POST["password_one"]);
-	  $password_two = test_input($_POST["password_two"]);
-	}
+	$username = test_input($_POST["username"]);
+  $email = test_input($_POST["email"]);
+  $password_one = test_input($_POST["password_one"]);
+  $password_two = test_input($_POST["password_two"]);
 }
 ?>
 
@@ -61,6 +55,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 					<input type="submit" name="register_submit" value="Register" />
 				</form>
+
+        <p class="form-error"><?php echo $form_error; ?></p>
+        <p class="form-error"><?php echo $name_error; ?></p>
+        <p class="form-error"><?php echo $email_error; ?></p>
+        <p class="form-error"><?php echo $pass_error; ?></p>
 			</div>
 		</div>
 	</body>

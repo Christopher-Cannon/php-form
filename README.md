@@ -15,9 +15,3 @@ Add second part of registration form validation script
 
 ## Step 4
 Add login form validation and test values
-
-## Step 5
-Create DB table and test login
-
-## Step 6
-Add registration form functionality

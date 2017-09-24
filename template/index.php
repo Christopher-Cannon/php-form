@@ -16,7 +16,7 @@
 			<div class="form-wrapper">
 				<h2>Login to an account</h2>
 
-				<form name="login-form">
+				<form name="login-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 					<label>Username</label>
 					<input type="text" name="username" />
 

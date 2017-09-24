@@ -16,7 +16,7 @@
 			<div class="form-wrapper">
 				<h2>Register an account</h2>
 
-				<form name="reg-form">
+				<form name="reg-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 					<label>Username</label>
 					<span class="small-text">Only alphanumeric chars and underscores allowed</span>
 					<input type="text" name="username" />
